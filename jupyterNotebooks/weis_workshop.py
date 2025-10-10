@@ -33,7 +33,6 @@ def load_OMsql(log):
     print('loading {}'.format(log))
     cr = om.CaseReader(log)
     rec_data = {}
-    driver_cases = cr.list_cases('driver')
     cases = cr.get_cases('driver')
     for case in cases:
         for key in case.outputs.keys():
