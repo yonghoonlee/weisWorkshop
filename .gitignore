@@ -1,0 +1,10 @@
+outputs*/
+logs*
+
+nodelist
+
+_**/
+
+*.tar.gz
+
+jupyterNotebooks/output
